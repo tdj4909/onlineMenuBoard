@@ -12,7 +12,6 @@
     spinner(0);
 
 
-
     
     
    // Back to top button
