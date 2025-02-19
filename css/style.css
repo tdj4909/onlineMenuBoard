@@ -183,7 +183,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/top-view-bowls-cooked-pasta-with-salads-fried-vegetables-table.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6)), url(../img/top-view-bowls-cooked-pasta-with-salads-fried-vegetables-table.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
