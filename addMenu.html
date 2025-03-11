@@ -99,8 +99,9 @@
                         </div>
                         <div class="pt-2 text-end">
                             <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-upload"></i></a>
-                            <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
-                          </div>
+                            <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"
+                            data-bs-toggle="modal" data-bs-target="#menuDeleteModal"><i class="bi bi-trash"></i></a>
+                        </div>
                         <div class="row my-3">
                             <div class="col-md-12 col-lg-6">
                                 <div class="form-item w-100">
@@ -180,10 +181,12 @@
                     </div>
 
                     <div class="col"></div>
+                    
                 </div>
             </form>
         </div>
     </div>
+    
     <!-- Checkout Page End -->
 
 
@@ -293,6 +296,25 @@
     <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i
             class="fa fa-arrow-up"></i></a>
 
+    <!-- Modal -->
+    <div class="modal fade" id="menuDeleteModal" data-bs-backdrop="static"
+    data-bs-keyboard="false" tabindex="-1" aria-labelledby="menuDeleteModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="menuDeleteModalLabel">삭제</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                삭제 하시겠습니까?
+            </div>
+            <div class="modal-footer">
+                <a href="addMenu.html" class="btn btn-primary">확인</a>
+            </div>
+        </div>
+    </div>
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
