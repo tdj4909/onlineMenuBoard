@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>테이블 오더 - 주문상세</title>
+    <title>테이블 오더 - 개인정보 수정</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -45,11 +45,8 @@
     <div class="container-fluid fixed-top shadow">
         <div class="container px-0">
             <nav class="navbar navbar-light bg-white navbar-expand-xl">
-                <a href="index.html" class="navbar-brand">
-                    <h1 class="text-primary display-6">테이블 오더</h1>
-                </a>
-                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse">
+                <a href="index.html" class="navbar-brand"><h1 class="text-primary display-6">테이블 오더</h1></a>
+                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars text-primary"></span>
                 </button>
                 <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
@@ -67,15 +64,14 @@
                             <i class="fa fa-shopping-bag fa-2x"></i>
                         </a>
                         <div class="nav-item dropdown">
-                            <a href="account-edit.html" class="nav-link dropdown-toggle active"
-                                data-bs-toggle="dropdown"><i class="fas fa-user fa-2x"></i></a>
+                            <a href="account-edit.html" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown"><i class="fas fa-user fa-2x"></i></a>
                             <div class="dropdown-menu m-0 bg-secondary rounded-0">
                                 <a href="login.html" class="dropdown-item">로그인</a>
                                 <a href="register.html" class="dropdown-item">회원가입</a>
                                 <a href="account-details.html" class="dropdown-item">개인정보 수정</a>
                                 <a href="account-changePassword.html" class="dropdown-item">비밀번호 변경</a>
-                                <a href="account-orderHistory.html" class="dropdown-item active">주문내역</a>
-                                <a href="addMenu.html" class="dropdown-item">메뉴추가</a>
+                                <a href="account-orderHistory.html" class="dropdown-item">주문내역</a>
+                                <a href="addMenu.html" class="dropdown-item active">메뉴추가</a>
                             </div>
                         </div>
                     </div>
@@ -88,132 +84,102 @@
 
 
 
+
     <!-- Checkout Page Start -->
     <div class="container-fluid py-5">
         <div class="container py-5 mt-5">
-            <h1 class="mb-4 mt-5">주문상세</h1>
+            <h1 class="text-center mb-4 mt-5">메뉴 추가</h1>
+            <form action="#" class="needs-validation" novalidate>
+                <div class="row g-5">
+                    <div class="col"></div>
 
-
-            <!-- 주문 테이블 Start -->
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">주문번호</th>
-                            <th scope="col">날짜</th>
-                            <th scope="col">주문상태</th>
-                            <th scope="col">합계</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">
-                                <p class="mt-2"><a href="#">#4310</a></p>
-                            </th>
-                            <td>
-                                <p class="mt-2">2025.02.10 12:30</p>
-                            </td>
-                            <td>
-                                <p class="mt-2">주문 완료</p>
-                            </td>
-                            <td>
-                                <p class="mt-2">82,000 원</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <!-- 주문 테이블 End -->
-
-
-            <form action="#">
-                <div class="row g-5 mt-5">
-
-
-
-                    <div class="col">
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">메뉴</th>
-                                        <th scope="col">메뉴명</th>
-                                        <th scope="col">가격</th>
-                                        <th scope="col">개수</th>
-                                        <th scope="col">합계</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">
-                                            <div class="d-flex align-items-center mt-2">
-                                                <img src="img/margherita-pizza.jpg" class="img-fluid rounded-circle"
-                                                    style="width: 90px; height: 90px;" alt="">
-                                            </div>
-                                        </th>
-                                        <td class="py-5">마르게리타</td>
-                                        <td class="py-5">18,000 원</td>
-                                        <td class="py-5">2</td>
-                                        <td class="py-5">36,000 원</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <div class="d-flex align-items-center mt-2">
-                                                <img src="img/mushroom-cheese-burger.jpg" class="img-fluid rounded-circle"
-                                                    style="width: 90px; height: 90px;" alt="">
-                                            </div>
-                                        </th>
-                                        <td class="py-5">머쉬룸 치즈 버거</td>
-                                        <td class="py-5">12,000 원</td>
-                                        <td class="py-5">2</td>
-                                        <td class="py-5">24,000 원</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">
-                                            <div class="d-flex align-items-center mt-2">
-                                                <img src="img/mushroom-fresh-burger.jpg" class="img-fluid rounded-circle"
-                                                    style="width: 90px; height: 90px;" alt="">
-                                            </div>
-                                        </th>
-                                        <td class="py-5">머쉬룸 프레쉬 버거</td>
-                                        <td class="py-5">11,000 원</td>
-                                        <td class="py-5">2</td>
-                                        <td class="py-5">22,000 원</td>
-                                    </tr>
-
-
-                                    <tr>
-                                        <th scope="row">
-                                        </th>
-                                        <td class="py-5">
-                                            <p class="mb-0 text-dark text-uppercase py-3">TOTAL</p>
-                                        </td>
-                                        <td class="py-5"></td>
-                                        <td class="py-5"></td>
-                                        <td class="py-5">
-                                            <div class="py-3 border-bottom border-top">
-                                                <p class="mb-0 text-dark">82,000 원</p>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                    <div class="col-md-12 col-lg-6 col-xl-5">
+                        <div class="border rounded">
+                            <img src="img/margherita-pizza.jpg" class="img-fluid rounded" alt="Image">
                         </div>
-
-
-
-
-                        <div class="row g-4 text-center align-items-center justify-content-center pt-4">
-                            <div class="col-9"></div>
-                            <div class="col-3">
-                                <a href="account-orderHistory.html"
-                                    class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">
-                                    <i class="vc_btn3-icon fas fa-arrow-left pe-2"></i>
-                                    주문내역
-                                </a>
+                        <div class="pt-2 text-end">
+                            <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-upload"></i></a>
+                            <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                          </div>
+                        <div class="row my-3">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-item w-100">
+                                    <input type="text" class="form-control" placeholder="메뉴명" required>
+                                    <div class="invalid-feedback">
+                                        메뉴명을 입력하세요.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-item w-100">
+                                    <input type="text" class="form-control" placeholder="가격" required>
+                                    <div class="invalid-feedback">
+                                        가격을 입력하세요.
+                                    </div>
+                                </div>
                             </div>
                         </div>
+
+                        <div class="row my-3">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-item w-100">
+                                    <input type="text" class="form-control" placeholder="열량(kcal)" required>
+                                    <div class="invalid-feedback">
+                                        열량(kcal)을 입력하세요.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-item w-100">
+                                    <input type="text" class="form-control" placeholder="당류(g)" required>
+                                    <div class="invalid-feedback">
+                                        당류(g)을 입력하세요.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row my-3">
+                            <div class="col-md-12 col-lg-4">
+                                <div class="form-item w-100">
+                                    <input type="text" class="form-control" placeholder="단백질(g)" required>
+                                    <div class="invalid-feedback">
+                                        단백질(g)을 입력하세요.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-4">
+                                <div class="form-item w-100">
+                                    <input type="text" class="form-control" placeholder="포화지방(g)" required>
+                                    <div class="invalid-feedback">
+                                        포화지방(g)을 입력하세요.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-4">
+                                <div class="form-item w-100">
+                                    <input type="text" class="form-control" placeholder="나트륨(mg)" required>
+                                    <div class="invalid-feedback">
+                                        나트륨(mg)을 입력하세요.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-item my-3">
+                            <textarea name="" id="" class="form-control border-0" cols="30" rows="8"
+                                            placeholder="메뉴 설명 *" spellcheck="false"></textarea>
+                        </div>
+
+                        <div class="d-grid my-3">
+                            <button type="submit"
+                                class="btn btn-primary border-0 border-secondary py-3 px-4 rounded-pill text-white">
+                                저장
+                            </button>
+                        </div>
                     </div>
+
+                    <div class="col"></div>
                 </div>
             </form>
         </div>
@@ -338,6 +304,29 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- ***************************************************************** -->
+    <script>
+        (() => {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+    <!-- ************************************************************** -->
 </body>
 
 </html>
