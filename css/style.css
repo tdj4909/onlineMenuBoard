@@ -1,4 +1,17 @@
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid.copyright {
+    margin-top: auto; /* footer를 항상 아래에 배치 */
+}
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
